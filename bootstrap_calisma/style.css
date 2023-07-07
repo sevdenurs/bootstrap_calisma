@@ -1,0 +1,59 @@
+.navbar {
+	background-color: rgba(255, 255, 255, 0.9);
+}  
+.navbar-brand{
+	color: #ffc800;
+}
+.logo{
+  color:#FED136 !important;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+  .masthead {
+    background: #000 url('img/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    padding-top:150px;
+    color:#fff;
+  }
+
+  .masthead h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+  }
+
+  .masthead p {
+	font-size: 24px;
+	margin-bottom: 40px;
+  }
+
+  .masthead .btn {
+	font-size: 18px;
+	color: white;
+  }
+  
+  .card {
+    border: none;
+    padding: 25px 0;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: d-flex p-2;
+    align-items: center;
+  }
+
+  .rounded-circle {
+    width: 50%;
+    height: 50%;
+  }
+  
